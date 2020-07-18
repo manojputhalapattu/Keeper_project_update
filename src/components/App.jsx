@@ -7,7 +7,7 @@ import Data from "./Data";
 function App() {
   return (
     <div>
-      <Header />
+      <Header/>
       <Note />
       <Data/>
       <Footer />
