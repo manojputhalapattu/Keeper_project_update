@@ -1,9 +1,11 @@
 import React from "react";
 import notes from "../notes"
 import Note from "./Note"
+
 function Data(){
-  return (
+  return(
     <div>
+      
     {notes.map(Note)}
     
       </div>
